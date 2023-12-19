@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile</title>
+    <title>Welcome To Profile </title>
+    <link rel="icon" href="profile.jpg">
+    <style>
+*{
+    text-align: center;
+    color:rebeccapurple ;
+    text-decoration: chocolate;
+}
+
+
+
+    </style>
 </head>
 <body>
+    <div style="border: 10px solid black;">
     <form>
-<fieldset>
-    <center><image src="profile.jpg" height="100px"></image><legend>Profile Details</legend></center>
+    <image src="profile.jpg" height="100px"></image>
+    <h1>Profile Details</h1>
 <label for="UN">User Name</label>
 <input type="text" id="UN" pattern=[A-Za-z]{3,9} required><br><br>
 <label for="unum">Mobile Number</label>
@@ -19,8 +31,9 @@
 <input type="date" id="UDOB"><br><br>
 <label for="Ugen">Gender</label>
 <input type="text" id="Ugen" ><br><br>
-<a href="MF.html"><b>Submit</b></a>
-</fieldset>
+<a href="MF.html"><button style="background-color: black;color:white;">Submit</button></a>
+
     </form>
+</div>
 </body>
 </html>
